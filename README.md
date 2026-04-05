@@ -21,6 +21,13 @@ A Django REST Framework backend for a finance dashboard with role-based access c
 | [JWT Authentication](docs/jwt-authentication.md) | Token lifecycle, login/refresh/logout flow, security notes |
 | [Sentry Setup](docs/sentry-setup.md) | Optional error monitoring with automatic enablement when `SENTRY_DSN` is set |
 | [Throttling](docs/throttling.md) | Role-based rate limiting, configuration, development override |
+| [Testing Guide](TESTING_GUIDE.md) | Test setup, execution steps, and validation workflow |
+| [Config Module](config/README.md) | Project settings split, environment handling, and app configuration |
+| [Core Module](core/README.md) | Shared infrastructure, exceptions, pagination, renderers, and middleware |
+| [Users Module](users/README.md) | Authentication, user management, roles, permissions, and related APIs |
+| [Records Module](records/README.md) | Financial record lifecycle, permissions, services, selectors, and APIs |
+| [Dashboard Module](dashboard/README.md) | Analytics endpoints, aggregations, and dashboard data flow |
+| [Audit Module](audit/README.md) | Audit logging design, actions, selectors, and audit APIs |
 
 ## Tech Stack
 
